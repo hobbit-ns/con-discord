@@ -1,5 +1,5 @@
 # con-discord
-Category/channel layout, starting from Philcon
+Category/channel Discord layout optimization, starting from Philcon
 
 While the Discord channel layout for virtual Philcon 2020 was pretty straightforward,
 it still had too many channels, many of which were never used.  The "staff" areas in
