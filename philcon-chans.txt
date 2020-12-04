@@ -1,0 +1,81 @@
+
+## rough outline of Philcon channel layout
+## Most of it hidden to anyone without "at con" type of role, which they
+## get either via the CoC acceptance mechanism or manually by an admin.
+
+## still a little too busy, I'd consolidate and re-order some categories
+
+Category: welcome
+ special chan: sign-the-coc, visible to @everyone, invokes role-bot
+ chans:  ribbons, prog-books / documentation, need-roles
+
+Category: helpdesk [could also be con ops with help-stuff under it]
+  chans: help-requests, discord-help,  [!zoom-help], a help vox channel
+
+Category: gaming
+   several channels, per-game? or misc "round gaming table", square, etc
+
+Category: fan tables
+  many underneath per organization, give per-org "manage messages" maybe
+  channels created on the fly as requested
+
+Category: dealers
+  many individual, plus a "dealer-help" place [move under ops/help?]
+  perhaps some vox channels for general interactive use
+  dealer-roles could "manage msgs" in category, mild risk of cross-oops
+
+Category: artshow
+  individual artists, and they could spam themselves however they like
+  artists-roles could also "manage msgs" in category
+
+Category: programming
+  announcements, the run rooms, filk and media discuss, and media-disc vox
+    posting restricted in announce
+
+Category: social
+  announce, consuite, party-board + -requests, bar-18+ [with bartenderbot!]
+    posting restricted in announce
+  general vox, and 18+ vox, scale quantity as needed
+    [with the zoom-con-suite idea, far less need here]
+
+Category: greenroom  ... might place under prog or con ops?
+  greenroom itself, -help, and a vox channel
+  program-participants can see/post
+
+Category: volunteers -- sparsely utilized, only needed IRL?
+  volunteer-lounge, and a vox
+
+Category: staff -- very underutilized as such
+  prog-planning, prog-ops [for run issues], and a vox
+
+Category: tech
+  announce, ops, socialize, post-panel-reports, and two vox [syd's war room]
+
+Category: moderator hq
+  incident-writeups [remained empty], mod-discuss which also served as the
+    sort of alert channel,  mod-social for total fluff, and a "serious" vox
+  discord server admins would logically hang here or under "tech" too
+
+Category: admin
+  chan: arrivals, can set server to drop join notifications here
+    nobody can actually *post* to it, just to collect server msgs
+    this chan can optionally be externally visible, under "social"?
+
+## all in all, still way too many compartments.  Consolidation could easily
+## have happened with tech/mods/prog-ops under "staff", with maybe "mods"
+## separated away, but really, do mods need any more than one non-sync??
+
+## basic role classes, excluding "ribbons", flags, discord puzzle-hunts
+
+admin : everything, speaker-to-bots if needed, maybe "registration"
+moderator : manage-messages, manage-roles, *not* manage-channels
+bot : permissions as needed, not necessarily manage-server
+penalty : specific DENIES to vox channels, deny view/post in some text areas
+tech, tech-leads : staff/tech access
+ops, program-ops : staff/greenroom access
+program-participant : greenroom access
+artist / artshow : manage in artist-area
+dealer : manage in dealer-area
+attendee : access most general con areas
+@everyone : only see welcome / CoC / help-get-me-started channel
+
